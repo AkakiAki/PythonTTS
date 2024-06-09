@@ -1,0 +1,51 @@
+Java was initially released (some would say “escaped”), on January 23,
+1996. It’s over 25 years old! In
+
+the first 25 years, Java as a language evolved, and the Java API grew
+enormously. The best estimate we
+
+have is that over 17 gazillion lines of Java code have been written in
+the last 25 years. As you spend time
+
+programming in Java, you will most certainly come across Java code
+that’s quite old, and some that’s
+
+much newer. Java is famous for its backward compatibility, so old code
+can run quite happily on new
+
+JVMs.
+
+In this book we’ll generally start off by using older coding styles
+(remember, you’re likely to encounter
+
+such code in the “real world”), and then we’ll introduce newer-style
+code.
+
+In a similar fashion, we will sometimes show you older classes in the
+Java API, and then show you
+
+newer alternatives.
+
+When Java was first released, it was slow. But soon after, the
+
+HotSpot VM was created, as were other performance enhanc-
+
+ers. While it’s true that Java isn’t the fastest language out there,
+
+it’s considered to be a very fast language—almost as fast as
+
+languages like C and Rust, and much faster than most other
+
+languages out there.
+
+Java has a magic super-power—the JVM. The Java Virtual
+
+Machine can optimize your code while it’s running, so it’s possible
+
+to create very fast applications without having to write special-
+
+ized high-performance code.
+
+But—full disclosure—compared to C and Rust, Java uses a lot
+
+of memory
