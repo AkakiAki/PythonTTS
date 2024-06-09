@@ -1,7 +1,7 @@
 import pypandoc
 # uncomment line 3-4 if pypandoc or pandoc is not found
-from pypandoc.pandoc_download import download_pandoc
-download_pandoc()
+# from pypandoc.pandoc_download import download_pandoc
+# download_pandoc()
 
 import pyttsx3
 # in case of libspeak.so.1 error install: pip install pyaudio
