@@ -1,10 +1,11 @@
 import pypandoc
-# uncomment line 3-4 if pypandoc is not found
-# from pypandoc.pandoc_download import download_pandoc
-# download_pandoc()
+# uncomment line 3-4 if pypandoc or pandoc is not found
+from pypandoc.pandoc_download import download_pandoc
+download_pandoc()
 
 import pyttsx3
-# in case of libspeak.so.1 error install: pip install pyaudio or easpeak or libespeak-dev
+# in case of libspeak.so.1 error install: pip install pyaudio
+# if can't build pyaudio install: espeak and libespeak-dev (portaudio19-dev also might make it build)
 # these are for tts audio styles
 
 # tts = text to speech
